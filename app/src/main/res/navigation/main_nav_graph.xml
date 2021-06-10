@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph"
+    app:startDestination="@id/clients_dest">
+    <fragment
+        android:id="@+id/clients_dest"
+        android:name="com.fr1x3.invoicingan.ui.views.Clients"
+        android:label="Clients" />
+    <fragment
+        android:id="@+id/invoices_dest"
+        android:name="com.fr1x3.invoicingan.ui.views.Invoices"
+        android:label="Invoices" />
+    <fragment
+        android:id="@+id/profile_dest"
+        android:name="com.fr1x3.invoicingan.ui.views.Profile"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/reports_dest"
+        android:name="com.fr1x3.invoicingan.ui.views.Reports"
+        android:label="Reports" />
+</navigation>
