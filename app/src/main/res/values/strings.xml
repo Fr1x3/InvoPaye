@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">InvoPaye</string>
+    <!--   bottom nav menu titles-->
+    <string name="bnav_client">clients</string>
+    <string name="bnav_invoices">invoices</string>
+    <string name="bnav_reports">reports</string>
+    <string name="bnav_profile">profile</string>
 </resources>

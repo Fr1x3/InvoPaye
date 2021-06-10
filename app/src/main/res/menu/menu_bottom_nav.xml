@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/clients"
+    android:icon="@drawable/ic_baseline_clients"
+    android:title="@string/bnav_client"/>
+    <item
+        android:id="@+id/invoices"
+        android:icon="@drawable/ic_invoice"
+        android:title="@string/bnav_invoices"/>
+
+    <item
+        android:id="@+id/reports"
+        android:icon="@drawable/ic_bar_chart"
+        android:title="@string/bnav_reports"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account"
+        android:title="@string/bnav_profile" />
+</menu>
