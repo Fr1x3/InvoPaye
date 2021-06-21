@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.NavController
+import androidx.navigation.NavHost
 import androidx.navigation.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupWithNavController
@@ -21,8 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         val binding :  ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        val navHostFragment = binding.navHostFragment
-        navController = navHostFragment.findNavController()
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment)  as NavHost
+        navController = navHostFragment.navController
 
         //setup navigtion for nav controller
         binding.bottomNavigation.setupWithNavController(navController)
